@@ -1,0 +1,32 @@
+body {
+  background-color: #faf5ee;
+  color: #2f2a25;
+}
+
+header,
+footer {
+  background-color: #2f2a25;
+  color: #faf5ee;
+}
+
+h1,
+h2 {
+  color: #8a5a2e;
+}
+
+header .brand {
+  color: #faf5ee;
+}
+
+nav a {
+  color: #faf5ee;
+  text-decoration: none;
+}
+
+.tagline {
+  color: #6b6257;
+}
+
+.price {
+  color: #8a5a2e;
+}
