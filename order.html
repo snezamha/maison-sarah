@@ -33,9 +33,120 @@
       <div class="container">
         <h1>Weekend Pre-Orders</h1>
 
-        <p>
-          Our online pre-order form is coming soon. Please check back later.
-        </p>
+        <p>Order your favourite bakery items for weekend pickup.</p>
+
+        <form action="#" method="get">
+          <fieldset>
+            <legend>Who is picking up</legend>
+
+            <label for="customer-name"> Your name </label>
+
+            <input
+              class="field"
+              type="text"
+              id="customer-name"
+              name="customer-name"
+              placeholder="Sarah Example"
+              required
+            />
+
+            <label for="email"> Your email </label>
+
+            <input
+              class="field"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="sarah@example.com"
+              required
+            />
+          </fieldset>
+
+          <fieldset>
+            <legend>Pickup day</legend>
+
+            <div class="choice">
+              <input
+                type="radio"
+                id="saturday"
+                name="pickup-day"
+                value="saturday"
+                checked
+              />
+
+              <label for="saturday"> Saturday </label>
+            </div>
+
+            <div class="choice">
+              <input
+                type="radio"
+                id="sunday"
+                name="pickup-day"
+                value="sunday"
+              />
+
+              <label for="sunday"> Sunday </label>
+            </div>
+
+            <label for="pickup-time"> Pickup time </label>
+
+            <select class="field" id="pickup-time" name="pickup-time">
+              <option value="09:00">09:00</option>
+
+              <option value="11:00">11:00</option>
+
+              <option value="13:00">13:00</option>
+            </select>
+          </fieldset>
+
+          <fieldset>
+            <legend>Your order</legend>
+
+            <div class="choice">
+              <input
+                type="checkbox"
+                id="croissant"
+                name="order-croissant"
+                value="croissant"
+              />
+
+              <label for="croissant"> Butter Croissant </label>
+            </div>
+
+            <div class="choice">
+              <input
+                type="checkbox"
+                id="cake"
+                name="order-cake"
+                value="chocolate-cake"
+              />
+
+              <label for="cake"> Chocolate Cake </label>
+            </div>
+
+            <div class="choice">
+              <input
+                type="checkbox"
+                id="tart"
+                name="order-tart"
+                value="fruit-tart"
+              />
+
+              <label for="tart"> Fruit Tart </label>
+            </div>
+
+            <label for="notes"> Notes for the bakers </label>
+
+            <textarea
+              class="field"
+              id="notes"
+              name="notes"
+              placeholder="Any special requests?"
+              rows="5"
+            ></textarea>
+          </fieldset>
+          <button type="submit">Submit Order</button>
+        </form>
       </div>
     </main>
 
