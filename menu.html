@@ -4,84 +4,126 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Menu - Maison Sarah</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
-      <h1 class="brand">Maison Sarah</h1>
+      <div class="container header-bar">
+        <h1 class="brand">Maison Sarah</h1>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-      </nav>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="order.html">Order</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <h1>Our Menu</h1>
+      <div class="container">
+        <h1>Our Menu</h1>
 
-      <p class="tagline">Baked fresh every day.</p>
+        <p class="tagline">Baked fresh every day.</p>
 
-      <ul>
-        <li>
-          Breads
+        <ul>
+          <li>
+            Breads
 
-          <ul>
-            <li>
-              Country Sourdough
-              <span class="price">$6.50</span>
-            </li>
+            <ul>
+              <li>
+                Country Sourdough
+                <span class="price">$6.50</span>
+              </li>
 
-            <li>
-              French Baguette
-              <span class="price">$3.00</span>
-            </li>
-          </ul>
-        </li>
+              <li>
+                French Baguette
+                <span class="price">$3.00</span>
+              </li>
+            </ul>
+          </li>
 
-        <li>
-          Pastries
+          <li>
+            Pastries
 
-          <ul>
-            <li>
-              Butter Croissant
-              <span class="price">$3.50</span>
-            </li>
+            <ul>
+              <li>
+                Butter Croissant
+                <span class="price">$3.50</span>
+              </li>
 
-            <li>
-              Cinnamon Roll
-              <span class="price">$4.00</span>
-            </li>
-          </ul>
-        </li>
+              <li>
+                Cinnamon Roll
+                <span class="price">$4.00</span>
+              </li>
+            </ul>
+          </li>
 
-        <li>
-          Drinks
+          <li>
+            Drinks
 
-          <ul>
-            <li>
-              Coffee
-              <span class="price">$2.80</span>
-            </li>
+            <ul>
+              <li>
+                Coffee
+                <span class="price">$2.80</span>
+              </li>
 
-            <li>
-              Tea
-              <span class="price">$2.50</span>
-            </li>
-          </ul>
-        </li>
-      </ul>
+              <li>
+                Tea
+                <span class="price">$2.50</span>
+              </li>
+            </ul>
+          </li>
+        </ul>
+
+        <section>
+          <h2>Weekend Specials</h2>
+
+          <div class="card-row">
+            <article class="card">
+              <img
+                src="images/hero-bakery.jpg"
+                alt="Chocolate cake with chocolate topping on a white plate."
+              />
+              <h3>Chocolate Cake</h3>
+              <p class="price">$25</p>
+            </article>
+
+            <article class="card">
+              <img
+                src="images/hero-bakery.jpg"
+                alt="Fresh butter croissants arranged on a bakery tray."
+              />
+              <h3>Butter Croissant</h3>
+              <p class="price">$8</p>
+            </article>
+
+            <article class="card">
+              <img
+                src="images/hero-bakery.jpg"
+                alt="Fruit tart decorated with fresh seasonal fruits."
+              />
+              <h3>Fruit Tart</h3>
+              <p class="price">$15</p>
+            </article>
+          </div>
+        </section>
+      </div>
     </main>
 
     <footer>
-      <p>© Maison Sarah</p>
+      <div class="container">
+        <p>© Maison Sarah</p>
+      </div>
     </footer>
   </body>
 </html>
