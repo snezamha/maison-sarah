@@ -106,3 +106,91 @@ footer {
 .card img {
   width: 100%;
 }
+
+table {
+  border-collapse: collapse;
+  margin: 2rem 0;
+  width: 100%;
+  max-width: 60rem;
+}
+
+th,
+td {
+  border: 1px solid #c9bda9;
+  padding: 0.8rem 1.2rem;
+  text-align: left;
+}
+
+th {
+  background-color: #8a5a2e;
+  color: #faf5ee;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f2e9db;
+}
+
+fieldset {
+  border: 1px solid #e3d9c9;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  background-color: #ffffff;
+}
+
+legend {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #8a5a2e;
+}
+
+.field {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  padding: 0.8rem;
+  border: 1px solid #c9bda9;
+  width: 100%;
+  max-width: 40rem;
+  margin-bottom: 1.2rem;
+}
+
+label {
+  display: block;
+  font-weight: 700;
+  margin-bottom: 0.4rem;
+}
+
+.choice {
+  margin-bottom: 1rem;
+}
+
+.choice label {
+  display: inline;
+  font-weight: 400;
+}
+
+.field:focus {
+  outline: 3px solid #e9b872;
+}
+
+input:required {
+  border-left: 4px solid #8a5a2e;
+}
+
+input {
+  accent-color: #8a5a2e;
+}
+
+button {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.6rem;
+  padding: 1rem 2rem;
+  background-color: #8a5a2e;
+  color: #faf5ee;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
