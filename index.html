@@ -4,53 +4,68 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maison Sarah</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
     <link
       href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Playfair+Display:wght@600;700&display=swap"
       rel="stylesheet"
     />
+
     <link rel="stylesheet" href="styles.css" />
   </head>
 
   <body>
     <header>
-      <h1 class="brand">Maison Sarah</h1>
+      <div class="container header-bar">
+        <h1 class="brand">Maison Sarah</h1>
 
-      <nav>
-        <a href="index.html">Home</a>
-        <a href="menu.html">Menu</a>
-        <a href="order.html">Order</a>
-      </nav>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="menu.html">Menu</a>
+          <a href="order.html">Order</a>
+        </nav>
+      </div>
     </header>
 
     <main>
-      <p>
-        Handmade bread and pastries,
-        <strong>baked every morning</strong>
-        by Sarah and her team.
-      </p>
-
-      <img
-        src="images/hero-bakery.jpg"
-        alt="Fresh bread and pastries displayed on wooden shelves inside Maison Sarah bakery."
-      />
-
-      <section>
-        <h2>Find us</h2>
-
-        <p>12 Baker Street, Paris, France</p>
-
+      <div class="container">
         <p>
-          <a href="https://maps.google.com" target="_blank" rel="noopener">
-            Find us on Google Maps
-          </a>
+          Handmade bread and pastries,
+          <strong>baked every morning</strong>
+          by Sarah and her team.
         </p>
-      </section>
+
+        <div class="hero">
+          <img
+            src="images/hero-bakery.jpg"
+            alt="Fresh bread and pastries displayed on wooden shelves inside Maison Sarah bakery."
+          />
+        </div>
+
+        <section>
+          <h2>Find us</h2>
+
+          <p>12 Baker Street, Paris, France</p>
+
+          <p>
+            <a
+              href="https://www.google.com/maps/search/?api=1&query=12+Baker+Street,+Paris,+France"
+              target="_blank"
+              rel="noopener"
+            >
+              Find us on Google Maps
+            </a>
+          </p>
+        </section>
+      </div>
     </main>
 
     <footer>
-      <p>© Maison Sarah</p>
+      <div class="container">
+        <p>© Maison Sarah</p>
+      </div>
     </footer>
   </body>
 </html>
